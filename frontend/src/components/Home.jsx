@@ -24,7 +24,7 @@ const handleSubmit = async () => {
     }
 
     const res = await axios.post(
-      "http://localhost:5000/api/users/add",
+      "https://calendar-ui-95x8.onrender.com/api/users/add",
       {
         name,
         email,
